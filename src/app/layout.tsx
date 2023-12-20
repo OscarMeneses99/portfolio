@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     name: 'Oscar Meneses',
     url: 'https://meneses.app',
   },
-  keywords: ["Porfolio", "Portafolio", "Web Developer", "Oscar Meneses Solís", "Engineering", "Frontend", "Backend", "Curriculum", "CV", "Resume", "Education", "Experience", "Projects", "Skills", "About", "Contact"],
+  keywords: ["Porfolio", "Portafolio", "Web Developer", "Oscar Meneses Solís", "Engineering", "Frontend", "Backend", "Curriculum", "CV", "Resume", "Education", "Experience", "Projects", "Skills", "About", "Contact", "Website", "Web"],
   description: 'Driven web developer delivering innovative solutions to elevate user experiences. Browse through my portfolio showcasing successful projects.',
   openGraph: {
     type: 'website',
