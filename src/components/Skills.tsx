@@ -62,6 +62,17 @@ function Skills() {
 
           <picture className="flex flex-col justify-center items-center gap-1">
             <Image
+              className="w-20 h-20 bg-white rounded-3xl p-1"
+              width={80}
+              height={80}
+              src="/Technologies/nextjs.svg"
+              alt="nextjs"
+            />
+            <h1 className="font-bold text-lg">Next.js</h1>
+          </picture>
+
+          <picture className="flex flex-col justify-center items-center gap-1">
+            <Image
               className="w-20 h-20"
               width={80}
               height={80}
@@ -95,7 +106,7 @@ function Skills() {
               src="/Technologies/nodejs.svg"
               alt="nodejs"
             />
-            <h1 className="font-bold text-lg">NodeJS</h1>
+            <h1 className="font-bold text-lg">Node.js</h1>
           </picture>
 
           <picture className="flex flex-col justify-center items-center gap-1">
@@ -106,7 +117,7 @@ function Skills() {
               src="/Technologies/express.svg"
               alt="express"
             />
-            <h1 className="font-bold text-lg">Express</h1>
+            <h1 className="font-bold text-lg">Express.js</h1>
           </picture>
 
           <picture className="flex flex-col justify-center items-center gap-1">
