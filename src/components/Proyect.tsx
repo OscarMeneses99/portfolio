@@ -22,6 +22,7 @@ function Proyect({ title, description, image, link, code }:
           src={image}
           width={300}
           height={200}
+          quality={100}
           alt={`image from ${title} proyect`}
         />
         <div className="flex justify-center items-center gap-4 mt-3 mb-3">
