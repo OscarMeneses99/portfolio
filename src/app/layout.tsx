@@ -7,6 +7,10 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   icons: "/icon.svg",
   title: 'Oscar Meneses Portfolio',
+  archives: ["https://meneses.app/OscarMenesesCV.pdf"],
+  alternates: {
+    canonical: 'https://meneses.app',
+  },
   authors: {
     name: 'Oscar Meneses',
     url: 'https://meneses.app',
