@@ -40,6 +40,16 @@ function Skills() {
 
           <picture className="flex flex-col justify-center items-center gap-1">
             <Image
+              width={80}
+              height={80}
+              src="/Technologies/typescript.svg"
+              alt="typescript"
+            />
+            <h1 className="font-bold text-lg">TypeScript</h1>
+          </picture>
+
+          <picture className="flex flex-col justify-center items-center gap-1">
+            <Image
               className="w-20 h-20"
               width={80}
               height={80}

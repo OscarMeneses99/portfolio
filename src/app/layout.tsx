@@ -7,45 +7,47 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   icons: "/icon.svg",
   title: 'Oscar Meneses Portfolio',
-  archives: ["https://meneses.app/OscarMenesesCV.pdf"],
-  alternates: {
-    canonical: 'https://meneses.app',
-  },
+  description: 'Driven web developer delivering innovative solutions to elevate user experiences. Browse through my portfolio showcasing successful projects.',
+  metadataBase: new URL('https://meneses.app/'),
   authors: {
     name: 'Oscar Meneses',
     url: 'https://meneses.app',
   },
+  archives: ["https://meneses.app/OscarMenesesCV.pdf"],
+  alternates: {
+    canonical: 'https://meneses.app',
+  },
   keywords: ["Porfolio", "Web Developer", "Oscar Meneses Solís", "Engineering", "Frontend", "Backend", "Curriculum", "CV", "Resume", "Education", "Experience", "Projects", "Skills", "About", "Contact", "Website", "Web"],
-  description: 'Driven web developer delivering innovative solutions to elevate user experiences. Browse through my portfolio showcasing successful projects.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://meneses.app',
     title: 'Oscar Meneses Portfolio',
+    siteName: 'Oscar Meneses Portfolio',
     description: 'Driven web developer delivering innovative solutions to elevate user experiences. Browse through my portfolio showcasing successful projects.',
     images: [
       {
-        url: '/Website.webp',
-        width: 800,
-        height: 600,
-        alt: 'Screenshot of my portfolio',
+        url: 'https://meneses.app/Website.webp',
+        width: 802,
+        height: 284,
+        alt: 'Oscar Meneses Portfolio',
       },
     ],
   },
   twitter: {
-    title: "Oscar Meneses Portfolio",
+    title: 'Oscar Meneses Portfolio',
     description: 'Driven web developer delivering innovative solutions to elevate user experiences. Browse through my portfolio showcasing successful projects.',
-    card: 'summary_large_image',
-    creator: '@OscarMeneses99',
-    site: 'https://meneses.app',
     images: [
       {
-        url: '/Website.webp',
-        width: 800,
-        height: 600,
-        alt: 'Screenshot of my portfolio',
+        url: 'https://meneses.app/Website.webp',
+        width: 802,
+        height: 284,
+        alt: 'Oscar Meneses Portfolio',
       },
     ],
+    card: 'summary_large_image',
+    site: 'https://meneses.app',
+    creator: '@OscarMeneses99',
   },
 }
 

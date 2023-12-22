@@ -5,6 +5,9 @@ import Skills from '../components/Skills'
 import Proyect from '../components/Proyect'
 
 export default function Home() {
+  function br() {
+    return <br />
+  }
   return (
     <main className="mx-auto max-w-3xl min-h-screen mb-10 px-6">
       <Header />
@@ -45,6 +48,13 @@ export default function Home() {
           image="/Proyects/IP-Address-Info.webp"
           link="https://ip-info-react.netlify.app/"
           code="https://github.com/OscarMeneses99/ipInfo-react"
+        />
+        <Proyect
+          title="NextJS 14 Tutorial"
+          description="Learning nextjs with its tutorial."
+          image="/Proyects/TutorialNextjs.png"
+          link="https://tutorial-nextjs-lovat.vercel.app/"
+          code="https://github.com/OscarMeneses99/tutorial-nextjs"
         />
         <Proyect
           title="Bookstore"
