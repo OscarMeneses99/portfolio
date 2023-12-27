@@ -5,9 +5,9 @@ function TimeLine() {
         <li className="mb-10 ms-6">
           <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8  ring-gray-900 bg-red-500" />
           <div>
-            <h3 className="flex items-center mb-1 text-lg font-semibold">
+            <h1 className="flex items-center mb-1 text-lg font-semibold">
               IPN ESIME Zacatenco
-            </h3>
+            </h1>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
               August 2018 - 2023
             </time>
