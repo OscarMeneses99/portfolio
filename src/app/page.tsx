@@ -5,9 +5,6 @@ import Skills from '../components/Skills'
 import Proyect from '../components/Proyect'
 
 export default function Home() {
-  function br() {
-    return <br />
-  }
   return (
     <main className="mx-auto max-w-3xl min-h-screen mb-10 px-6">
       <Header />

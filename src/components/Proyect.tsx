@@ -6,7 +6,7 @@ function Proyect({ title, description, image, link, code }:
   const shadow =
     "shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]";
   return (
-    <figure
+    <article
       className={`w-full flex flex-col md:flex-row md:row-span-2 justify-center items-center md:p-2 ${shadow}`}
     >
       <div className="flex flex-col justify-center items-center w-2/3 bg-black rounded md:p-5">
@@ -50,7 +50,7 @@ function Proyect({ title, description, image, link, code }:
           </a>
         </div>
       </div>
-    </figure>
+    </article>
   );
 }
 
