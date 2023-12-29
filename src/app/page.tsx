@@ -38,14 +38,14 @@ export default function Home() {
         <Proyect
           title="Cinema Backend"
           description="Backend for the Cinema Frontend, it's a REST API with CRUD operations, authentication and authorization."
-          image="/Proyects/Movies-backend.webp"
+          image="/Proyects/Movies-backend.png"
           link="https://movies-backend.3.us-1.fl0.io/api-docs/"
           code="https://github.com/OscarMeneses99/movies-backend"
         />
         <Proyect
           title="IP Address Info"
           description="This website allows you to get information about an IP address, such as the location, the timezone, etc."
-          image="/Proyects/IP-Address-Info.webp"
+          image="/Proyects/IP-Address-Info.png"
           link="https://ip-info-react.netlify.app/"
           code="https://github.com/OscarMeneses99/ipInfo-react"
         />
