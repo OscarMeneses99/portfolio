@@ -33,7 +33,7 @@ function Header() {
           Oscar Meneses
         </h1>
         <h2 className="font-light text-xl ml-2 mt-1 text-white/75">
-          Web Developer Jr
+          Web Developer Trainee
         </h2>
         <div className="flex items-center mt-3">
           <UbicationIcon />

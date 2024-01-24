@@ -177,7 +177,7 @@ function Skills() {
             />
             <h1 className="font-bold text-lg">Vercel</h1>
           </picture>
-          <picture className="flex flex-col justify-center items-center gap-1">
+          {/* <picture className="flex flex-col justify-center items-center gap-1">
             <Image
               className="w-20 h-20"
               width={80}
@@ -186,7 +186,7 @@ function Skills() {
               alt="aws"
             />
             <h1 className="font-bold text-lg">AWS</h1>
-          </picture>
+          </picture> */}
 
           <picture className="flex flex-col justify-center items-center gap-1">
             <Image

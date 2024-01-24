@@ -58,7 +58,7 @@ export default function Home() {
         />
         <Proyect
           title="Bookstore"
-          description="This is application made in Astro with Transitions API, here saved my favorite books."
+          description="This project was created with Astro, and it provided a valuable learning experience as I delved into mastering the use of the View Transitions API."
           image="/Proyects/Books.webp"
           link="https://book-astro.netlify.app/"
           code="https://github.com/OscarMeneses99/books-astro"
