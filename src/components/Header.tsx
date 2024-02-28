@@ -29,9 +29,7 @@ function Header() {
       </picture>
 
       <div className="flex flex-col justify-center items-center sm:items-start">
-        <h1 className="text-4xl font-bold name">
-          Oscar Meneses
-        </h1>
+        <h1 className="text-4xl font-bold name">Oscar Meneses</h1>
         <h2 className="font-light text-xl ml-2 mt-1 text-white/75">
           Web Developer Trainee
         </h2>

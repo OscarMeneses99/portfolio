@@ -1,8 +1,8 @@
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import TimeLine from '../components/TimeLine'
-import Skills from '../components/Skills'
-import Proyect from '../components/Proyect'
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import TimeLine from "../components/TimeLine";
+import Skills from "../components/Skills";
+import Proyect from "../components/Proyect";
 
 export default function Home() {
   return (
@@ -60,5 +60,5 @@ export default function Home() {
       <hr className="mt-10 mb-10 border border-white shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]" />
       <Footer />
     </main>
-  )
+  );
 }

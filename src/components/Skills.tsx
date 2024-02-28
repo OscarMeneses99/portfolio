@@ -34,7 +34,8 @@ function Skills() {
               width={80}
               height={80}
               src="/Technologies/js.svg"
-              alt="js" />
+              alt="js"
+            />
             <h1 className="font-bold text-lg">JavaScript</h1>
           </picture>
 
@@ -204,7 +205,7 @@ function Skills() {
       <div className="flex justify-center items-center flex-col gap-5">
         <h1 className="text-2xl font-bold mt-5 mb-5 title">Others</h1>
         <div className="flex justify-center items-center flex-wrap gap-16">
-        <picture className="flex flex-col justify-center items-center gap-1">
+          <picture className="flex flex-col justify-center items-center gap-1">
             <Image
               className="w-20 h-20"
               width={80}
@@ -214,7 +215,7 @@ function Skills() {
             />
             <h1 className="font-bold text-lg">Google Analytics</h1>
           </picture>
-          
+
           <picture className="flex flex-col justify-center items-center gap-1">
             <Image
               className="w-20 h-20 p-1"
@@ -247,7 +248,6 @@ function Skills() {
             />
             <h1 className="font-bold text-lg">Linux</h1>
           </picture>
-
         </div>
       </div>
     </div>

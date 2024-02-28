@@ -1,8 +1,19 @@
 import LinkIcon from "../assets/linkIcon";
 import CodeIcon from "../assets/codeIcon";
 import Image from "next/image";
-function Proyect({ title, description, image, link, code }:
-  { title: string, description: string, image: string, link: string, code: string }) {
+function Proyect({
+  title,
+  description,
+  image,
+  link,
+  code,
+}: {
+  title: string;
+  description: string;
+  image: string;
+  link: string;
+  code: string;
+}) {
   const shadow =
     "shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]";
   return (
