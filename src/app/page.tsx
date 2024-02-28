@@ -5,20 +5,12 @@ import Skills from '../components/Skills'
 import Proyect from '../components/Proyect'
 
 export default function Home() {
-  function br() {
-    return <br />
-  }
   return (
     <main className="mx-auto max-w-3xl min-h-screen mb-10 px-6">
       <Header />
       <hr className="mt-10 mb-10 border border-white shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]" />
 
-      <h1 className="text-4xl font-bold education text-center mt-5 mb-5">
-        Education
-      </h1>
-
       <TimeLine />
-
       <h1 className="text-4xl font-bold text-center mt-5 mb-10 skills">
         Skills
       </h1>
