@@ -18,48 +18,50 @@ function Proyect({
     "shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]";
   return (
     <figure
-      className={`w-full flex flex-col md:flex-row md:row-span-2 justify-center items-center md:p-2 ${shadow}`}
+      className={`w-full flex flex-col justify-center items-center ${shadow}`}
     >
-      <div className="flex flex-col justify-center items-center w-2/3 bg-black rounded md:p-5">
-        <h1 className="font-extrabold text-4xl mt-6 mb-4 text-center title">
-          {title}
-        </h1>
-
-        <p className="mt-1 text-center text-xl text-white/70">{description}</p>
-      </div>
-      <div className="flex flex-col justify-center items-center w-full md:w-1/2 gap-5 p-2 md:p-0 mt-3">
+      <div className="flex flex-col justify-center items-center bg-black rounded w-full">
         <Image
-          className="rounded-lg"
+          className="rounded-t w-full object-cover"
           src={image}
-          width={400}
-          height={300}
+          width={1351}
+          height={767}
           quality={100}
           alt={`image from ${title} proyect`}
         />
-        <div className="flex justify-center items-center gap-4 mt-3 mb-3">
-          <a
-            href={link}
-            target="_blank"
-            rel="noreferrer"
-            className="flex justify-center items-center bg-pink-600 rounded-full px-5 py-3 hover:bg-pink-700 transition-colors duration-500"
-          >
-            <span className="text-xl font-mono font-bold mt-0.5">Link</span>
-            <span className="ml-1">
-              <LinkIcon />
-            </span>
-          </a>
-          <a
-            href={code}
-            target="_blank"
-            rel="noreferrer"
-            className="flex justify-center items-center bg-purple-700 rounded-full px-5 py-3 hover:bg-purple-800 transition-colors duration-500"
-          >
-            <span className="text-xl font-mono font-bold mt-0.5">Code</span>
-            <span className="ml-1">
-              <CodeIcon />
-            </span>
-          </a>
-        </div>
+
+        <h1 className="font-extrabold text-4xl mt-6 mb-5 text-center title">
+          {title}
+        </h1>
+        <p className="text-center text-xl text-white/70 px-10">
+          {description}
+        </p>
+      </div>
+
+
+      <div className="flex justify-center items-center gap-4 mt-6 mb-8">
+        <a
+          href={link}
+          target="_blank"
+          rel="noreferrer"
+          className="flex justify-center items-center bg-pink-600 rounded-full px-5 py-3 hover:bg-pink-700 transition-colors duration-500"
+        >
+          <span className="text-xl font-mono font-bold mt-0.5">Link</span>
+          <span className="ml-1">
+            <LinkIcon />
+          </span>
+        </a>
+        <a
+          href={code}
+          target="_blank"
+          rel="noreferrer"
+          className="flex justify-center items-center bg-purple-700 rounded-full px-5 py-3 hover:bg-purple-800 transition-colors duration-500"
+        >
+          <span className="text-xl font-mono font-bold mt-0.5">Code</span>
+          <span className="ml-1">
+            <CodeIcon />
+          </span>
+        </a>
       </div>
     </figure>
   );
