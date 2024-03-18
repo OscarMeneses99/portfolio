@@ -33,7 +33,7 @@ function Proyect({
         <h1 className="font-extrabold text-4xl mt-6 mb-5 text-center title">
           {title}
         </h1>
-        <p className="text-center text-xl text-white/70 px-10">
+        <p className="text-center text-xl text-white/70 px-2 md:px-10">
           {description}
         </p>
       </div>
