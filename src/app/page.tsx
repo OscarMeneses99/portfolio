@@ -19,7 +19,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold mt-16 mb-16 text-center projects">
         Proyects
       </h1>
-      <div className="flex flex-col gap-[60px]">
+      <div className="flex flex-col gap-[120px]">
         <Proyect
           title="Cinema Frontend"
           description="Website provides a seamless experience for movie enthusiasts, offering a comprehensive database of films along with the convenience of adding, updating, and deleting entries."
@@ -57,7 +57,7 @@ export default function Home() {
         />
       </div>
 
-      <hr className="mt-10 mb-10 border border-white shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]" />
+      <hr className="mt-28 mb-10 border border-white shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]" />
       <Footer />
     </main>
   );
