@@ -21,14 +21,16 @@ function Proyect({
       className={`w-full flex flex-col justify-center items-center ${shadow}`}
     >
       <div className="flex flex-col justify-center items-center bg-black rounded w-full">
-        <Image
-          className="rounded-t w-full object-cover"
-          src={image}
-          width={1351}
-          height={767}
-          quality={100}
-          alt={`image from ${title} proyect`}
-        />
+        <figure className="w-full overflow-hidden">
+          <Image
+            className="rounded-t w-full object-cover transition-transform duration-[0.8s] hover:scale-110 hover:translate-x-9 hover:translate-y-5"
+            src={image}
+            width={1351}
+            height={767}
+            quality={100}
+            alt={`image from ${title} proyect`}
+          />
+        </figure>
 
         <h1 className="font-extrabold text-4xl mt-6 mb-5 text-center title">
           {title}
@@ -37,7 +39,6 @@ function Proyect({
           {description}
         </p>
       </div>
-
 
       <div className="flex justify-center items-center gap-4 mt-6 mb-8">
         <a
