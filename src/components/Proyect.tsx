@@ -23,7 +23,7 @@ function Proyect({
       <div className="flex flex-col justify-center items-center bg-black rounded w-full">
         <figure className="w-full overflow-hidden">
           <Image
-            className="rounded-t w-full object-cover transition-transform duration-[0.8s] hover:scale-110 hover:translate-x-9 hover:translate-y-5"
+            className="rounded-t w-full object-cover transition-transform duration-[0.8s] hover:scale-105"
             src={image}
             width={1351}
             height={767}
