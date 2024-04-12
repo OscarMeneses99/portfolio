@@ -23,21 +23,21 @@ export default function Home() {
         <Proyect
           title="Cinema Frontend"
           description="Website provides a seamless experience for movie enthusiasts, offering a comprehensive database of films along with the convenience of adding, updating, and deleting entries."
-          image="/Proyects/Movies.webp"
+          image="/Proyects/Movies.png"
           link="https://movies-react-vite.netlify.app/home"
           code="https://github.com/OscarMeneses99/movies-react"
         />
         <Proyect
           title="Cinema Backend"
           description="Backend for the Cinema Frontend, it's a REST API with CRUD operations, authentication and authorization."
-          image="/Proyects/Movies-backend.webp"
+          image="/Proyects/Movies-backend.png"
           link="https://movies-backend.3.us-1.fl0.io/api-docs/"
           code="https://github.com/OscarMeneses99/movies-backend"
         />
         <Proyect
           title="IP Address Info"
           description="This website allows you to get information about an IP address, such as the location, the timezone, etc."
-          image="/Proyects/IP-Address-Info.webp"
+          image="/Proyects/IP-Address-Info.png"
           link="https://ip-info-react.netlify.app/"
           code="https://github.com/OscarMeneses99/ipInfo-react"
         />
@@ -51,7 +51,7 @@ export default function Home() {
         <Proyect
           title="Bookstore"
           description="This project was created with Astro, and it provided a valuable learning experience as I delved into mastering the use of the View Transitions API."
-          image="/Proyects/Books.webp"
+          image="/Proyects/Books.png"
           link="https://book-astro.netlify.app/"
           code="https://github.com/OscarMeneses99/books-astro"
         />

@@ -25,14 +25,14 @@ function Proyect({
           <Image
             className="rounded-t w-full object-cover transition-transform duration-[0.8s] hover:scale-105"
             src={image}
-            width={1351}
-            height={767}
+            width={1400}
+            height={1050}
             quality={100}
             alt={`image from ${title} proyect`}
           />
         </figure>
 
-        <h1 className="font-extrabold text-4xl mt-6 mb-5 text-center title">
+        <h1 className="font-extrabold text-4xl mt-6 mb-5 text-center title z-10">
           {title}
         </h1>
         <p className="text-center text-xl text-white/70 px-2 md:px-10">
