@@ -18,9 +18,9 @@ function Proyect({
     "shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]";
   return (
     <figure
-      className={`w-full flex flex-col justify-center items-center ${shadow}`}
+      className={`w-full flex flex-col justify-center items-center ${shadow} bg-black`}
     >
-      <div className="flex flex-col justify-center items-center bg-black rounded w-full">
+      <div className="flex flex-col justify-center items-center rounded w-full">
         <figure className="w-full overflow-hidden">
           <Image
             className="rounded-t w-full object-cover transition-transform duration-[0.8s] hover:scale-105"
@@ -40,7 +40,7 @@ function Proyect({
         </p>
       </div>
 
-      <div className="flex justify-center items-center gap-4 mt-6 mb-8">
+      <div className="flex justify-center items-center  gap-4 mt-6 mb-8">
         <a
           href={link}
           target="_blank"
