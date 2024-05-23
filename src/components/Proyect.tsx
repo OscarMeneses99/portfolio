@@ -18,7 +18,7 @@ function Proyect({
     "shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]";
   return (
     <figure
-      className={`w-full flex flex-col justify-center items-center ${shadow} bg-black`}
+      className={`w-full flex flex-col justify-center items-center ${shadow} bg-zinc-950/95`}
     >
       <div className="flex flex-col justify-center items-center rounded w-full">
         <figure className="w-full overflow-hidden">
