@@ -1,4 +1,3 @@
-import { IMAGES_MANIFEST } from "next/dist/shared/lib/constants";
 import Image from "next/image";
 function Skills() {
   return (
